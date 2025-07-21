@@ -10,6 +10,7 @@
 body{
     height: 100vh;
       background-color: black;
+      max-width: 1024px;
     
     
 }
@@ -96,8 +97,7 @@ body{
   background-color: rgb(10, 10, 126);
   padding: 40px 20px;
   margin: 30px;
- 
-      font-size: 15px;
+       font-size: 15px;
       justify-content: space-between;
   font-family: sans-serif;
     border-radius: 5px;
@@ -114,6 +114,7 @@ body{
 .Projects{
 color: white;
 display:flex;
+max-width: 1024px;
 flex-direction: flex 1;
 overflow: hidden;
 margin-top: -30px;
@@ -123,6 +124,7 @@ padding: 30px;
 font-family: sans-serif;
 font-size: 16px;
 gap: 40px;
+
 }
 
 .Projects h4{
@@ -164,20 +166,18 @@ gap: 40px;
 }
 
 .Contact{
-         display: flex;
-         flex-direction: flex 1;
-              background-color:rgb(217, 253, 10);
+           display: flex;
+           flex-direction: flex 1;
+           background-color:rgb(217, 253, 10);
             border-radius: 5px;
             height: 400px;
-                padding: 40px;
-                max-width: none;
-            gap: 100px;
+            padding: 40px;
             justify-self: center;
             justify-content: space-between;
             font-family: sans-serif;
-                       font-size: 15px;
+            font-size: 15px;
             margin: 30px;
-          width: 75cqmax;
+        
              }
 
          .Contact .text h2{
@@ -189,7 +189,7 @@ gap: 40px;
 input {
          outline: none;
          background-color: white;
-          border: none;
+         border: none;
          border-radius: 3px;
          padding: 10px;
          height: 40px;
@@ -209,13 +209,13 @@ input {
 
 
 button{
-     width: 100%;
-      border-radius: 3px;
-      padding: 15px;
-      background-color: black;
-     font-size: 15px;
+       width: 100%;
+       border-radius: 3px;
+       padding: 15px;
+       background-color: black;
+       font-size: 15px;
        color: rgb(217, 253, 10);
-      border: none;
+       border: none;
       }
 
 .footer {
@@ -229,7 +229,7 @@ button{
              margin: 30px;
       padding: 40px;
             color: white;
-            width: 75cqmax;
+            
     
 
      }
@@ -251,27 +251,352 @@ button{
 
 /*phones*/
 
-@media (min-width:200px) {
+@media (min-width:300px) {
 
+ .Nav-link ul {
+    margin-bottom: -70px;
+     font: 14px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 19px;
+        margin-top: -70px;
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 700;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 30px;
+             }
+
+.About {
+      height: 300px;
+       padding: 15px;
+           font: 13px sans-serif;
+            margin-top: -70px;
+     }
+       .About h2 {
+         font-weight: 700;
+         font-size: 20px;
+                  }
+
+         
+         .About button {
+            font: 14px sans-serif;
+            width: 80px;
+            height: 40px;
+            margin-left: 60%;
+             }
+
+
+  .Recent-project {
+  color: white;
+  background-color: rgb(10, 10, 126);
+  padding: 20px;
+       font-size: 13px;
+   }
+
+.Recent-project h2 {
+         font-weight: 500;
+         font-size: 20px;     
+}
+
+.Projects{
+align-self: center;
+padding: 30px;
+font-size: 12px;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.Projects h4{
+  font-size: 19px;
+  }
+
+.Projects h5{
+  font-size: 13px;
+}
+
+
+.Projects ion-icon {
+  font-size: 25px;
+}
+
+.Contact{
+            height: 300px;
+            padding: 30px;
+            font-size: 12px;
+             }
+
+         .Contact .text h2{
+             font-size: 20px;
+             font-weight:  500;
+              }
+ 
+input {
+         outline: none;
+         background-color: white;
+         border: none;
+         border-radius: 3px;
+         padding: 10px;
+         height: 20px;
+         width: 140px;
+          }
+
+         .text-input .message input{
+             height: 100px; 
+                }
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  text-align: center;
+     }
+      .footer p{
+         font-size: 14px;
+         }
+
+        .footer h2{
+         color: white;
+         font-size: 30px;
+         }
+        .footer .ft-icon {
+              font-size: 20px;
+              gap: 5px;
+             }
+
+ 
 }
 
 /*mini-tabs*/
 
 @media (min-width:600px) {
+ .Nav-link ul {
+    margin-bottom: -90px;
+     font: 14px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 19px;
+        margin-top: -100px;
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 700;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 30px;
+             }
+
+.About {
+      height: 300px;
+       padding: 15px;
+           font: 15px sans-serif;
+            margin-top: -70px;
+     }
+       .About h2 {
+         font-weight: 700;
+         font-size: 30px;
+                  }
+
+         
+         .About button {
+            font: 14px sans-serif;
+            width: 80px;
+            height: 40px;
+            margin-left: 80%;
+             }
+
+
+  .Recent-project {
+       font-size: 15px;
+   }
+
+.Recent-project h2 {
+         font-weight: 600;
+         font-size: 30px;     
+}
+
+.Projects{
+font-size: 14px;
+flex-wrap: nowrap;
+gap: 30px;
+}
+
+.Projects h4{
+  font-size: 22px;
+  }
+
+.Projects h5{
+  font-size: 13px;
+}
+
+
+.Projects ion-icon {
+  font-size: 25px;
+}
+
+.Contact{
+            height: 300px;
+            padding: 30px;
+            gap: 40px;
+            font-size: 14px;
+             }
+
+         .Contact .text h2{
+             font-size: 30px;
+             font-weight:  500;
+              }
+ 
+input {
+       justify-content: space-between;
+         padding: 10px;
+         width: 250px;
+          }
+
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  width: 630px;
+     }
 
         }
+
 /*Tablet*/
 @media (min-width:1020px){
 
+ .Nav-link ul {
+    margin-bottom: -90px;
+     font: 16px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 20px;
+        margin-top: -300px;
+        margin-bottom: -300px;
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 900;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 40px;
+             }
+
+.Projects{
+flex-wrap: nowrap;
+max-width: 1024px;
+margin: 20px;
+margin-top: -20px;
+margin-bottom: -30px;
+}
+ 
+input {
+       justify-content: space-between;
+         padding: 10px;
+         width: 350px;
+          }
+
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  width: 860px;
+     }
+
+        }
+        
+/*Destops*/
+@media (min-width:1400px) 
+ {
+      body {
+        width: 100%;
+        height: 100vh;
+        display: inline;
+      }
+
+
+.About {
+   font: 20px sans-serif;
+      margin-top: -50px;
+     }
+       .About h2 {
+         font-weight: 1000;
+         font-size: 50px;
+                  }
+
+  .Recent-project {
+       font-size: 20px;
+       height: 100px;
+ 
+   }
+
+.Recent-project h2 {
+         font-weight: 1000;
+         font-size: 50px;     
 }
 
-/*Destops*/
-@media (min-width:1400px) {
-  .Contact{
-              width: 90cqmax;
-             }
-.footer {
-  
-            width: 90cqmax;
-          }
+.Projects{
+max-width: 1550px;
 }
+
+.Projects h4{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+
+.Contact{
+          
+            height: 500px;
+            padding: 40px;
+            font-size: 20px;
+            margin: 30px;
+        
+             }
+
+         .Contact .text h2{
+             font-size: 50px;
+             font-weight:  1000;
+             font-family: "Anton", sans-seriff;
+              }
+ 
+input {
+         border-radius: 3px;
+         padding: 10px;
+         height: 40px;
+         width: 600px;
+          }
+
+         .text-input .message input{
+             height: 200px;
+              border-radius: 3px;
+                }
+
+
+button{
+       font-size: 20px;
+      }
+
+.footer {
+    width: 90%;
+     }
+   
+    }
+        
+        
+
