@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+      background-color: black;
+      max-width: 1024px;
+    
+    
+}
+
+.Nav-link ul {
+     display: flex;
+     font: 1em sans-serif;
+      justify-self: center;
+      gap: 30px;
+      padding: 10px;
+      
+    }
+      a {
+         color: whitesmoke;
+         text-decoration: none;
+          cursor: pointer;
+          }
+
+       a:hover {
+         color:rgb(217, 253, 10);
+         }
+      
+.Home{
+      display: flex;
+              flex-direction: column;
+              height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+          font-family: sans-serif;
+          color: rgb(217, 253, 10);
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 900;
+             font-size: 100px;
+             font-style: normal;
+             }
+         .icon {
+             display: flex;
+              flex-direction: row;   
+              font-size: 50px;
+              gap: 8px;
+             }
+
+.About {
+      height: 250px;
+       padding: 30px;
+              border-radius: 5px;
+   align-content: center;
+   background-color: rgb(217, 253, 10);
+   font: 15px sans-serif;
+      margin: 30px;  
+      justify-self: center;
+      margin-top: -50px;
+         letter-spacing: 1px;
+   word-spacing: 3px;
+   
+     }
+       .About h2 {
+         font-family:  "Anton",'sans-serif';
+         font-weight: 900;
+         font-size: 40px;
+         justify-self: center;
+                  }
+
+         
+         .About button {
+            background-color: black;
+            color: rgb(217, 253, 10);
+            outline: none;
+            font: 1em sans-serif;
+            width: 90px;
+            height: 40px;
+            border: none;
+            margin-left: 80%;
+             }
+
+
+  .Recent-project {
+  color: white;
+  background-color: rgb(10, 10, 126);
+  padding: 40px 20px;
+  margin: 30px;
+       font-size: 15px;
+      justify-content: space-between;
+  font-family: sans-serif;
+    border-radius: 5px;
+  display: flex;
+      align-items: center;
+   }
+
+.Recent-project h2 {
+ font-family:  "Anton",'sans-serif';
+         font-weight: 800;
+         font-size: 30px;     
+}
+
+.Projects{
+color: white;
+display:flex;
+max-width: 1024px;
+flex-direction: flex 1;
+overflow: hidden;
+margin-top: -30px;
+justify-self: center;
+margin-bottom: -25px;
+padding: 30px;
+font-family: sans-serif;
+font-size: 16px;
+gap: 40px;
+
+}
+
+.Projects h4{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.Projects h5{
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(217, 253, 10);
+}
+.Projects .Project-P {
+  background-color: rgb(10, 10, 126);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.Projects .Project-W{
+  background-color: rgb(10, 10, 126);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Projects .Project-C{
+  background-color: rgb(10, 10, 126);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.Projects img {
+  height: 220px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Projects ion-icon {
+  font-size: 25px;
+}
+
+.Contact{
+           display: flex;
+           flex-direction: flex 1;
+           background-color:rgb(217, 253, 10);
+            border-radius: 5px;
+            height: 400px;
+            padding: 40px;
+            justify-self: center;
+            justify-content: space-between;
+            font-family: sans-serif;
+            font-size: 15px;
+            margin: 30px;
+        
+             }
+
+         .Contact .text h2{
+             font-size: 40px;
+             font-weight:  1000;
+             font-family: "Anton", sans-seriff;
+              }
+ 
+input {
+         outline: none;
+         background-color: white;
+         border: none;
+         border-radius: 3px;
+         padding: 10px;
+         height: 40px;
+         width: 400px;
+          }
+
+         .text-input{
+             display: flex;
+             flex-direction: column;
+              gap: 9px;
+             }
+
+         .text-input .message input{
+             height: 150px;
+              border-radius: 3px;
+                }
+
+
+button{
+       width: 100%;
+       border-radius: 3px;
+       padding: 15px;
+       background-color: black;
+       font-size: 15px;
+       color: rgb(217, 253, 10);
+       border: none;
+      }
+
+.footer {
+    display: flex;
+          flex-direction: column;
+           align-items: center;
+           justify-self: center;
+           font-family: sans-serif;      
+         background-color: rgb(10, 10, 126) ;
+         border-radius: 5px;
+             margin: 30px;
+      padding: 40px;
+            color: white;
+            
+    
+
+     }
+      .footer p{
+         color: white;
+         font-size: 17px;
+         }
+
+        .footer h2{
+         color: white;
+         font-size: 40px;
+         }
+        .footer .ft-icon {
+             color: greenyellow;
+              font-size: 30px;
+              gap: 8px;
+             }
+
+
+/*phones*/
+
+@media (min-width:300px) {
+
+ .Nav-link ul {
+    margin-bottom: -70px;
+     font: 14px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 19px;
+       
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 700;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 30px;
+             }
+
+.About {
+      height: 300px;
+       padding: 15px;
+           font: 13px sans-serif;
+            margin-top: -70px;
+     }
+       .About h2 {
+         font-weight: 700;
+         font-size: 20px;
+                  }
+
+         
+         .About button {
+            font: 14px sans-serif;
+            width: 80px;
+            height: 40px;
+            margin-left: 60%;
+             }
+
+
+  .Recent-project {
+  color: white;
+  background-color: rgb(10, 10, 126);
+  padding: 20px;
+       font-size: 13px;
+   }
+
+.Recent-project h2 {
+         font-weight: 500;
+         font-size: 20px;     
+}
+
+.Projects{
+align-self: center;
+padding: 30px;
+font-size: 12px;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.Projects h4{
+  font-size: 19px;
+  }
+
+.Projects h5{
+  font-size: 13px;
+}
+
+
+.Projects ion-icon {
+  font-size: 25px;
+}
+
+.Contact{
+            height: 300px;
+            padding: 30px;
+            font-size: 12px;
+             }
+
+         .Contact .text h2{
+             font-size: 20px;
+             font-weight:  500;
+              }
+ 
+input {
+         outline: none;
+         background-color: white;
+         border: none;
+         border-radius: 3px;
+         padding: 10px;
+         height: 20px;
+         width: 140px;
+          }
+
+         .text-input .message input{
+             height: 100px; 
+                }
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  text-align: center;
+     }
+      .footer p{
+         font-size: 14px;
+         }
+
+        .footer h2{
+         color: white;
+         font-size: 30px;
+         }
+        .footer .ft-icon {
+              font-size: 20px;
+              gap: 5px;
+             }
+
+ 
+}
+
+/*mini-tabs*/
+
+@media (min-width:600px) {
+ .Nav-link ul {
+   
+     font: 14px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 19px;
+        margin-top: -100px;
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 700;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 30px;
+             }
+
+.About {
+      height: 300px;
+       padding: 15px;
+           font: 15px sans-serif;
+            margin-top: -70px;
+     }
+       .About h2 {
+         font-weight: 700;
+         font-size: 30px;
+                  }
+
+         
+         .About button {
+            font: 14px sans-serif;
+            width: 80px;
+            height: 40px;
+            margin-left: 80%;
+             }
+
+
+  .Recent-project {
+       font-size: 15px;
+   }
+
+.Recent-project h2 {
+         font-weight: 600;
+         font-size: 30px;     
+}
+
+.Projects{
+font-size: 14px;
+flex-wrap: nowrap;
+gap: 30px;
+}
+
+.Projects h4{
+  font-size: 22px;
+  }
+
+.Projects h5{
+  font-size: 13px;
+}
+
+
+.Projects ion-icon {
+  font-size: 25px;
+}
+
+.Contact{
+            height: 300px;
+            padding: 30px;
+            gap: 40px;
+            font-size: 14px;
+             }
+
+         .Contact .text h2{
+             font-size: 30px;
+             font-weight:  500;
+              }
+ 
+input {
+       justify-content: space-between;
+         padding: 10px;
+         width: 250px;
+          }
+
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  width: 630px;
+     }
+
+        }
+
+/*Tablet*/
+@media (min-width:1020px){
+
+ .Nav-link ul {
+    margin-bottom: -90px;
+     font: 16px sans-serif;
+    }
+    
+      
+.Home{
+        font-size: 20px;
+       
+            }
+    
+         .Home h2{
+             font-family: "Anton", sans-serif;
+             font-weight: 900;
+             font-size: 80px;
+             }
+         .icon {
+              font-size: 40px;
+             }
+
+.Projects{
+flex-wrap: nowrap;
+max-width: 1024px;
+margin: 20px;
+margin-top: -20px;
+margin-bottom: -30px;
+}
+ 
+input {
+       justify-content: space-between;
+         padding: 10px;
+         width: 350px;
+          }
+
+button{
+       font-size: 12px;
+      }
+
+.footer {
+  width: 860px;
+     }
+
+        }
+        
+/*Destops*/
+@media (min-width:1400px) 
+ {
+      body {
+        width: 100%;
+        height: 100vh;
+        display: inline;
+      }
+
+
+.About {
+   font: 20px sans-serif;
+      margin-top: -50px;
+     }
+       .About h2 {
+         font-weight: 1000;
+         font-size: 50px;
+                  }
+
+  .Recent-project {
+       font-size: 20px;
+       height: 100px;
+ 
+   }
+
+.Recent-project h2 {
+         font-weight: 1000;
+         font-size: 50px;     
+}
+
+.Projects{
+max-width: 1550px;
+}
+
+.Projects h4{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+
+.Contact{
+          
+            height: 500px;
+            padding: 40px;
+            font-size: 20px;
+            margin: 30px;
+        
+             }
+
+         .Contact .text h2{
+             font-size: 50px;
+             font-weight:  1000;
+             font-family: "Anton", sans-seriff;
+              }
+ 
+input {
+         border-radius: 3px;
+         padding: 10px;
+         height: 40px;
+         width: 600px;
+          }
+
+         .text-input .message input{
+             height: 200px;
+              border-radius: 3px;
+                }
+
+
+button{
+       font-size: 20px;
+      }
+
+.footer {
+    width: 90%;
+     }
+   
+    }
+        
+        
+
