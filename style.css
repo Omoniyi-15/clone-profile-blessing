@@ -325,8 +325,9 @@ gap: 10px;
 }
 
 .Contact{
-            height: 250px;
-            padding: 30px;
+           height: 300px;
+      flex-wrap: wrap;
+              padding: 30px;
             font-size: 12px;
              }
 
@@ -342,11 +343,13 @@ input {
          border-radius: 3px;
          padding: 10px;
          height: 10px;
-         width: 100px
+         width: 250px;
+         
+        
           }
 
          .text-input .message input{
-             height: 80px; 
+             height: 60px; 
                 }
 button{
        font-size: 12px;
@@ -443,12 +446,12 @@ gap: 30px;
 }
 
 .Contact{
-            height: 300px;
+            height: 320px;
             padding: 30px;
-            gap: 40px;
+            gap: 10px;
+            flex-wrap: nowrap;
             font-size: 14px;
-            max-width: 1024px;
-             }
+                      }
 
          .Contact .text h2{
              font-size: 30px;
@@ -458,7 +461,7 @@ gap: 30px;
 input {
        justify-content: space-between;
          padding: 10px;
-         width: 300px
+         width: 300px;
           }
 
 
@@ -507,6 +510,8 @@ margin-bottom: -30px;
 input {
        justify-content: space-between;
          padding: 10px;
+         width: 400px;
+         height: 40px;
           }
 
 button{
@@ -562,7 +567,7 @@ max-width: 1550px;
             height: 500px;
             padding: 40px;
             font-size: 20px;
-            
+           
         
              }
 
@@ -576,6 +581,7 @@ input {
          border-radius: 3px;
          padding: 10px;
          height: 40px;
+         width: 450px;
           }
 
          .text-input .message input{
