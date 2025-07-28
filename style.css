@@ -17,6 +17,8 @@ body{
      font: 1em sans-serif;
      text-align: center;
       justify-self: center;
+      align-self: center;
+  justify-content: center;
       gap: 30px;
       padding: 10px;
     }
@@ -250,6 +252,8 @@ button{
     margin-bottom: -70px;
      font: 14px sans-serif;
   text-align: center;
+  align-content: center;
+  justify-content: center;
     }
     
       
