@@ -325,7 +325,7 @@ gap: 10px;
 }
 
 .Contact{
-           height: 300px;
+           height: 350px;
       flex-wrap: wrap;
               padding: 30px;
             font-size: 12px;
@@ -446,7 +446,7 @@ gap: 30px;
 }
 
 .Contact{
-            height: 320px;
+            height: 350px;
             padding: 30px;
             gap: 10px;
             flex-wrap: nowrap;
@@ -471,7 +471,7 @@ button{
 
 
 .footer {
-  width: 600px;
+  width: 520px;
      }
                  }
 
