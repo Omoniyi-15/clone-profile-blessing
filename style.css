@@ -343,7 +343,7 @@ input {
          border-radius: 3px;
          padding: 10px;
          height: 10px;
-         width: 250px;
+         width: 270px;
          
         
           }
@@ -447,10 +447,10 @@ gap: 30px;
 
 .Contact{
             height: 350px;
-            padding: 30px;
-            gap: 10px;
             flex-wrap: nowrap;
             font-size: 14px;
+            gap: 20px;
+            padding: 30px;
                       }
 
          .Contact .text h2{
@@ -461,7 +461,7 @@ gap: 30px;
 input {
        justify-content: space-between;
          padding: 10px;
-         width: 300px;
+        
           }
 
 
