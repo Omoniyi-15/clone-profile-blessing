@@ -188,7 +188,7 @@ input {
          border-radius: 3px;
          padding: 10px;
          height: 20px;
-    min-width: 400px;
+    width: 300px;
           }
 
          .text-input{
@@ -343,7 +343,7 @@ input {
          border: none;
          border-radius: 3px;
          padding: 10px;
-        min-width: 270px;
+        
         
           }
 
