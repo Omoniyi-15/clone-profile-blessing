@@ -188,7 +188,7 @@ input {
          border-radius: 3px;
          padding: 10px;
          height: 20px;
-    width: 300px;
+   
           }
 
          .text-input{
@@ -343,7 +343,7 @@ input {
          border: none;
          border-radius: 3px;
          padding: 10px;
-        
+         width: 290px;
         
           }
 
@@ -578,7 +578,7 @@ max-width: 1550px;
 input {
          border-radius: 3px;
          padding: 10px;
-        
+        width: 400px;
           }
 
          .text-input .message input{
